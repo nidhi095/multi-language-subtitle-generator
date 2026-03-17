@@ -1,8 +1,16 @@
-openai-whisper
-moviepy
-transformers
-torch
-pysrt
-langdetect
-ffmpeg-python
-sentencepiece
+# Core ML
+openai-whisper>=20230918
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Translation (MarianMT via HuggingFace)
+transformers>=4.35.0
+sentencepiece>=0.1.99
+sacremoses>=0.1.1
+
+# Video / Audio processing
+ffmpeg-python>=0.2.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.65.0
