@@ -5,3 +5,4 @@ torch
 pysrt
 langdetect
 ffmpeg-python
+sentencepiece
