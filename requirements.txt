@@ -1,1 +1,7 @@
-
+openai-whisper
+moviepy
+transformers
+torch
+pysrt
+langdetect
+ffmpeg-python
